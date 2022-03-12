@@ -2,16 +2,17 @@
 import SwiftUI
 
 
-struct WorksView: View {
+struct WorksListView: View {
     @State private var items = [Item]()
     
     var body: some View {
         List(items, id: \.id) { item in
             HStack {
                 Text(item.volumeInfo.title)
-                AsyncImage(url: URL(string: item.volumeInfo.imageLinks.smallThumbnail))
+                    .font(.headline)
+                    .padding()
+                Image(systemName: "book")
             }
-            
         }
         .task {
             await loadData()
@@ -38,6 +39,6 @@ struct WorksView: View {
 
 struct WorksListView_Previews: PreviewProvider {
     static var previews: some View {
-        WorksView()
+        WorksListView()
     }
 }

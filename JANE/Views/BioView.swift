@@ -31,7 +31,7 @@ struct BioView: View {
             .navigationTitle("Jane Austen")
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
-                    NavigationLink("Books", destination: WorksView())
+                    NavigationLink("Books", destination: WorksListView())
                     
                 }
             }

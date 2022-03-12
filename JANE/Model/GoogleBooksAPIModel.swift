@@ -26,4 +26,8 @@ struct VolumeInfo: Codable {
 // MARK: - ImageLinks
 struct ImageLinks: Codable {
     let smallThumbnail, thumbnail: String
+    
+    enum CodingKeys: String, CodingKey {
+        case smallThumbnail,thumbnail
+    }
 }
