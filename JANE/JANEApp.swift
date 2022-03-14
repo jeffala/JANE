@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct JANEApp: App {
+    @StateObject var viewModel = WorksViewModel()
+    
     var body: some Scene {
         WindowGroup {
             BioView()

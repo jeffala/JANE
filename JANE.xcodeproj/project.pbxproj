@@ -14,6 +14,7 @@
 		4293D34F27D85EED002FFF5F /* GoogleBooksAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4293D34E27D85EED002FFF5F /* GoogleBooksAPIModel.swift */; };
 		42A6101F27DAE78D00EAF3C1 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6101E27DAE78C00EAF3C1 /* BioView.swift */; };
 		42D5C43A27DD613B00E6E8C4 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D5C43927DD613B00E6E8C4 /* BookDetailView.swift */; };
+		42D5C43C27E0066A00E6E8C4 /* WorksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D5C43B27E0066A00E6E8C4 /* WorksViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4293D34E27D85EED002FFF5F /* GoogleBooksAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBooksAPIModel.swift; sourceTree = "<group>"; };
 		42A6101E27DAE78C00EAF3C1 /* BioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
 		42D5C43927DD613B00E6E8C4 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		42D5C43B27E0066A00E6E8C4 /* WorksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				42A6101E27DAE78C00EAF3C1 /* BioView.swift */,
 				4293D34227D836ED002FFF5F /* WorksListView.swift */,
+				42D5C43B27E0066A00E6E8C4 /* WorksViewModel.swift */,
 				42D5C43927DD613B00E6E8C4 /* BookDetailView.swift */,
 			);
 			path = Views;
@@ -167,6 +170,7 @@
 				4293D34F27D85EED002FFF5F /* GoogleBooksAPIModel.swift in Sources */,
 				42A6101F27DAE78D00EAF3C1 /* BioView.swift in Sources */,
 				42D5C43A27DD613B00E6E8C4 /* BookDetailView.swift in Sources */,
+				42D5C43C27E0066A00E6E8C4 /* WorksViewModel.swift in Sources */,
 				4293D34327D836ED002FFF5F /* WorksListView.swift in Sources */,
 				4293D34127D836ED002FFF5F /* JANEApp.swift in Sources */,
 			);

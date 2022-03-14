@@ -3,10 +3,10 @@ import SwiftUI
 
 
 struct WorksListView: View {
-    @State private var items = [Item]()
+    @ObservedObject var viewModel = WorksViewModel()
     
     var body: some View {
-        List(items, id: \.id) { item in
+        List(viewModel.items, id: \.id) { item in
             HStack {
                 Text(item.volumeInfo.title)
                     .font(.headline)
@@ -15,26 +15,13 @@ struct WorksListView: View {
             }
         }
         .task {
-            await loadData()
+            await viewModel.loadData()
         }
         .navigationTitle("Books")
         .navigationBarTitleDisplayMode(.inline)
     }
     
-    func loadData() async {
-        guard let url = URL(string: "https://www.googleapis.com/books/v1/users/112081002230780611545/bookshelves/1001/volumes") else {
-            print("Invalid URL")
-            return
-        }
-        do {
-            let (data, _) = try await URLSession.shared.data(from: url)
-            if let decodedResponse = try? JSONDecoder().decode(Books.self, from: data) {
-                items = decodedResponse.items
-            }
-        } catch {
-            print("Invalid data")
-        }
-    }
+
 }
 
 struct WorksListView_Previews: PreviewProvider {
