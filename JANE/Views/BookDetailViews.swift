@@ -1,10 +1,11 @@
 
 import SwiftUI
 
-struct PrideAndPrejudiceDetailView: View {
+struct BookDetailView: View {
     var localBookInfo: Book
     
     var body: some View {
+        ScrollView {
         VStack {
             Spacer()
             VStack(spacing: 15) {
@@ -17,25 +18,25 @@ struct PrideAndPrejudiceDetailView: View {
                 }
 
                 Text(localBookInfo.title)
-                    .font(.title3)
+                    .font(.title)
             }
             Spacer()
             Text(localBookInfo.description)
                 .multilineTextAlignment(.center)
                 .lineSpacing(10)
-                .padding(.horizontal)
-                .font(.headline)
+                .padding()
+                .font(.title2)
             Spacer()
             Spacer()
+        }
         }
     }
 }
 
 
-
 struct BookDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        PrideAndPrejudiceDetailView(localBookInfo: BookDetails.topWorks.first!)
+        BookDetailView(localBookInfo: BookDetails.topWorks.first!)
     }
 }
 

@@ -3,25 +3,24 @@ import SwiftUI
 
 
 struct WorksListView: View {
-    @ObservedObject var viewModel = WorksViewModel()
+    var books: [Book] = BookDetails.topWorks
     
     var body: some View {
-        List(viewModel.items, id: \.id) { item in
-            HStack {
-                Text(item.volumeInfo.title)
-                    .font(.headline)
-                    .padding()
-                Image(systemName: "book")
-            }
+        List(books, id: \.id) { book in
+            NavigationLink(destination: BookDetailView(localBookInfo: book), label: {
+                HStack {
+                    Image(systemName: "book")
+                    
+                    Text(book.title)
+                        .font(.headline)
+                        .padding()
+                }
+            })
+            
+                .navigationTitle("Books")
+                .navigationBarTitleDisplayMode(.inline)
         }
-        .task {
-            await viewModel.loadData()
-        }
-        .navigationTitle("Books")
-        .navigationBarTitleDisplayMode(.inline)
     }
-    
-
 }
 
 struct WorksListView_Previews: PreviewProvider {

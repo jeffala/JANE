@@ -1,9 +1,4 @@
-//
-//  BookDescriptions.swift
-//  JANE
-//
-//  Created by Jeff Licona on 3/14/22.
-//
+
 
 import Foundation
 
