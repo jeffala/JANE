@@ -9,14 +9,11 @@ struct WorksListView: View {
         List(books, id: \.id) { book in
             NavigationLink(destination: BookDetailView(localBookInfo: book), label: {
                 HStack {
-                    Image(systemName: "book")
-                    
                     Text(book.title)
                         .font(.headline)
                         .padding()
                 }
             })
-            
                 .navigationTitle("Books")
                 .navigationBarTitleDisplayMode(.inline)
         }

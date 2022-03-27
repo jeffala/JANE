@@ -1,5 +1,4 @@
 
-
 import Foundation
 
 struct Book: Identifiable {
