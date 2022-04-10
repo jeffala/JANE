@@ -1,6 +1,7 @@
 
 import SwiftUI
 
+
 struct BookDetailView: View {
     var localBookInfo: Book
 
@@ -25,6 +26,7 @@ struct BookDetailView: View {
                     .font(.title2)
                 Spacer()
                 Spacer()
+                Link("Source: \(localBookInfo.sourceOfBookInfo)", destination: (URL(string: localBookInfo.sourceOfBookInfo)!))
             }
         }
     }

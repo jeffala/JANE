@@ -28,7 +28,7 @@ struct AuthorBioView: View {
                         .lineSpacing(10)
                         .padding()
                     Spacer()
-                    Text(author.sourceOfInfo)
+                    Link("Source: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))
                 }
                 .navigationTitle(author.name)
                 .toolbar {

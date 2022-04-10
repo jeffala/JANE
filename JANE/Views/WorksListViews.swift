@@ -10,8 +10,16 @@ struct JaneAustenWorksListView: View {
     }
 }
 
+struct HarperLeeWorksListView: View {
+    var books: [Book] = HarperLeeBooks.bestWorks
+    
+    var body: some View {
+        WorksListView(books: books)
+    }
+}
+
 struct WorksListViews_Previews: PreviewProvider {
     static var previews: some View {
-        JaneAustenWorksListView()
+        HarperLeeWorksListView()
     }
 }

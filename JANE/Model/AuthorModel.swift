@@ -1,4 +1,3 @@
-
 // SwiftUI is required in order to use AnyView
 import SwiftUI
 
@@ -9,7 +8,7 @@ struct Author {
     var born: String
     var died: String
     var smallBio: String
-    var sourceOfInfo: String
-    var navlinkName = "Books"
+    var sourceOfBio: String
     var navLinkView: AnyView
+    var navlinkName = "Books"
 }
