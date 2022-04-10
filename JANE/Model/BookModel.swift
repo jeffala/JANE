@@ -7,6 +7,7 @@ struct Book: Identifiable {
     var title: String
     var description: String
     var url: URL
+    var sourceOfBookInfo: String
 }
 
 
