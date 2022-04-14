@@ -4,6 +4,7 @@ import SwiftUI
 
 struct Author {
     var image: String
+    var imageCredit: String
     var name: String
     var born: String
     var died: String
@@ -11,4 +12,5 @@ struct Author {
     var sourceOfBio: String
     var navLinkView: AnyView
     var navlinkName = "Books"
+//  var citation = String
 }
