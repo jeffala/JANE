@@ -6,10 +6,11 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             List {
-                Text("List of authors")
-                Text("https://www.britannica.com/biography/Harper-Lee")
+                NavigationLink("Jane Austen", destination: JaneAustenView())
+                NavigationLink("Harper Lee", destination: HarperLeeView())
+                NavigationLink("Ivan Turgenev", destination: IvanTurgenevView())
             }
-                .navigationTitle("Authors")
+            .navigationTitle("Authors")
         }
     }
 }
