@@ -20,13 +20,26 @@ struct IvanTurgenevView: View {
     var body: some View {
         AuthorBioView(author: author)
     }
-    
+}
+
+struct GeorgeOrwellView: View {
+    let author = georgeOrwellBio
+    var body: some View {
+        AuthorBioView(author: author)
+    }
+}
+
+struct MigueldeCervantesView: View {
+    let author = miguelDeCervantesBio
+    var body: some View {
+        AuthorBioView(author: author)
+    }
 }
 
 
 
 struct BioViews_Previews: PreviewProvider {
     static var previews: some View {
-        IvanTurgenevView()
+        GeorgeOrwellView()
     }
 }
