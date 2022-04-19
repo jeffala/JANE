@@ -23,6 +23,20 @@ struct IvanTurgenevWorksListView: View {
     }
 }
 
+struct GeorgeOrwellWorksListView: View {
+    var books: [Book] = GeorgeOrwellBooks.bestWorks
+    var body: some View {
+        WorksListView(books: books)
+    }
+}
+
+struct MigueldeCervantesListView: View {
+    var books: [Book] = MiguelDeCervantesBooks.bestWorks
+    var body: some View {
+        WorksListView(books: books)
+    }
+}
+
 
 
 

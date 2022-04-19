@@ -1,6 +1,12 @@
 // SwiftUI is required in order to use AnyView
 import SwiftUI
 
+struct Book: Identifiable {
+    var id = UUID()
+    var title: String
+    var description: String
+    var url: URL
+}
 
 struct Author {
     var image: String
@@ -14,3 +20,4 @@ struct Author {
     var navlinkName = "Books"
 //  var citation = String
 }
+

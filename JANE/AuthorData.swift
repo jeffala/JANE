@@ -47,3 +47,26 @@ Turgenev poured into his writings not only a deep concern for the future of his 
 """,
                           sourceOfBio: "https://www.britannica.com/biography/Ivan-Sergeyevich-Turgenev",
                           navLinkView: AnyView(IvanTurgenevWorksListView()))
+
+var georgeOrwellBio = Author(image: "George-Orwell",
+                             imageCredit: "Free to use source",
+                             name: "George-Orwell",
+                             born: "Born: June 25, 1903, Motihari, Bengal, India",
+                             died: "Died January 21, 1950, London, England",
+                             smallBio: """
+English novelist, essayist, and critic famous for his novels Animal Farm (1945) and Nineteen Eighty-four (1949), the latter a profound anti-utopian novel that examines the dangers of totalitarian rule.
+
+Born Eric Arthur Blair, Orwell never entirely abandoned his original name, but his first book, Down and Out in Paris and London, appeared in 1933 as the work of George Orwell (the surname he derived from the beautiful River Orwell in East Anglia). In time his nom de plume became so closely attached to him that few people but relatives knew his real name was Blair. The change in name corresponded to a profound shift in Orwell’s lifestyle, in which he changed from a pillar of the British imperial establishment into a literary and political rebel.
+
+""",
+                             sourceOfBio: "https://www.britannica.com/biography/George-Orwell",
+                             navLinkView: AnyView(GeorgeOrwellWorksListView()))
+
+var miguelDeCervantesBio = Author(image: "Miguel-de-Cervantes",
+                               imageCredit: "Miguel de Cervantes, engraving by E. Mackenzie after Gregorio Ferro and Fernando Selma; from The Imperial Dictionary of Universal Biography (1863).                               Hulton Archive/Getty Images",
+                               name: "Miguel de Cervantes",
+                               born: "Born: September 29?, 1547, Alcalá de Henares, Spain",
+                               died: "Died: April 22, 1616, Madrid, Spain",
+                               smallBio: " Spanish novelist, playwright, and poet, the creator of Don Quixote (1605, 1615) and the most important and celebrated figure in Spanish literature. His novel Don Quixote has been translated, in full or in part, into more than 60 languages. Editions continue regularly to be printed, and critical discussion of the work has proceeded unabated since the 18th century. At the same time, owing to their widespread representation in art, drama, and film, the figures of Don Quixote and Sancho Panza are probably familiar visually to more people than any other imaginary characters in world literature. Cervantes was a great experimenter. He tried his hand in all the major literary genres save the epic. He was a notable short-story writer, and a few of those in his collection of Novelas exemplares (1613; Exemplary Stories) attain a level close to that of Don Quixote, on a miniature scale.",
+                               sourceOfBio: "https://www.britannica.com/biography/Miguel-de-Cervantes",
+                               navLinkView: AnyView(MigueldeCervantesListView()))

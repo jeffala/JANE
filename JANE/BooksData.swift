@@ -33,19 +33,6 @@ struct JaneAustenBooks {
     ]
 }
 
-struct HarperLeeBooks {
-    static let bestWorks = [
-        Book(title: "To Kill a Mockingbird",
-             description: "Voted America's Best-Loved Novel in PBS's The Great American Read Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred One of the most ...",
-             url: URL(string: "https://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
-        
-        Book(title: "Go Set a Watchman",
-             description: "A historic literary event: the publication of a newly discovered novel, the earliest known work from Harper Lee, the beloved, bestselling author of the Pulitzer Prize-winning classic, To Kill a Mockingbird. Originally written in the mid-1950s, Go ...",
-             url: URL(string: "https://books.google.com/books/content?id=OQR4BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api")!)
-    ]
-}
-
-
 struct IvanTurgenevBooks {
     static let bestWorks = [
         
@@ -86,6 +73,61 @@ struct IvanTurgenevBooks {
              url: URL(string: "https://books.google.com/books/content?id=QaU0EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!)
     ]
 }
+
+struct GeorgeOrwellBooks {
+    static let bestWorks = [
+        Book(title: "Nineteen Eighty-four",
+             description: "A chilling portrait of a totalitarian society under the ever-watchful gaze of Big Brother, where love, privacy, and individuality are banned. The year 1984 has come and gone, but George Orwell's nightmare vision from 1949 of the world we are ...",
+             url: URL(string: "https://books.google.com/books/content?id=lbqlAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+        
+        Book(title: "Animal Farm",
+             description: "George Orwell was a much-respected English novelist, who wrote some of the finest pieces in literary criticism, fiction. Orwell's work is known for its simplicity and wit. He wrote with smartness on subjects such as anti-fascism, democratic ...",
+             url: URL(string: "https://books.google.com/books/content?id=tJf8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        
+        Book(title: "A Clergyman’s Daughter",
+             description: "A pious young woman grapples with a loss of memory—and of faith—in this sharp, witty novel by the author of 1984 and Animal Farm. Dorothy is the daughter of the Reverend Charles Hare, rector of St. Athelstan’s in Depression-era Suffolk, England ...",
+             url: URL(string: "https://books.google.com/books/content?id=LsKtkkz06RwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        Book(title: "Down and Out in Paris and London",
+             description: "No description available",
+             url: URL(string: "https://books.google.com/books/content?id=PN2SAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        Book(title: "Keep the Aspidistra Flying",
+             description: "Gordon Comstock loathes dull, middle-class respectability and worship of money. He gives up a 'good job' in advertising to work part-time in a bookshop, giving him more time to write. But he slides instead into a self-induced poverty that ...",
+             url: URL(string: "https://books.google.com/books/content?id=kWuOngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
+        
+    ]
+}
+
+struct HarperLeeBooks {
+    static let bestWorks = [
+        Book(title: "To Kill a Mockingbird",
+             description: "Voted America's Best-Loved Novel in PBS's The Great American Read Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred One of the most ...",
+             url: URL(string: "https://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        
+        Book(title: "Go Set a Watchman",
+             description: "A historic literary event: the publication of a newly discovered novel, the earliest known work from Harper Lee, the beloved, bestselling author of the Pulitzer Prize-winning classic, To Kill a Mockingbird. Originally written in the mid-1950s, Go ...",
+             url: URL(string: "https://books.google.com/books/content?id=OQR4BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api")!)
+    ]
+}
+
+struct MiguelDeCervantesBooks {
+    static let bestWorks = [
+        Book(title: "Don Quixote",
+             description: "James Montgomery's new translation of Don Quixote is the fourth already in the twenty-first century, and it stands with the best of them. It pays particular attention to what may be the hardest aspect of Cervantes's novel to render into English ...",
+             url: URL(string: "https://books.google.com/books/content?id=3qxaBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        Book(title: "La Galatea",
+             description: "Considered by many as the greatest of all Spanish authors, Miguel de Cervantes is most well-known of course for \"Don Quixote,\" a work of such literary impact that its historical importance cannot be understated. Unfortunately Cervantes' other ...",
+             url: URL(string: "https://books.google.com/books/content?id=ze74oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+        Book(title: "Novelas ejemplares",
+             description: "Los mejores libros jamás escritos Edición ampliada, al cuidado de José Montero Reguera, catedrático de Literatura Española Con las Novelas ejemplares Cervantes da nueva muestra de su inmenso talento como escritor. Esta aventura cervantina, que ...",
+             url: URL(string: "https://books.google.com/books/content?id=FqEEMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
+    ]
+}
+
+
+
+
+
+
 
 
 
