@@ -1,6 +1,7 @@
 
 import SwiftUI
 
+// Second, create the works list view
 
 struct JaneAustenWorksListView: View {
     var books: [Book] = JaneAustenBooks.bestWorks
@@ -32,6 +33,20 @@ struct GeorgeOrwellWorksListView: View {
 
 struct MigueldeCervantesListView: View {
     var books: [Book] = MiguelDeCervantesBooks.bestWorks
+    var body: some View {
+        WorksListView(books: books)
+    }
+}
+
+struct JohnDonneListView: View {
+    var books: [Book] = JohnDonneBooks.bestWorks
+    var body: some View {
+        WorksListView(books: books)
+    }
+}
+
+struct LeoTolstoyListView: View {
+    var books: [Book] = LeoTolstoyBooks.bestWorks
     var body: some View {
         WorksListView(books: books)
     }
