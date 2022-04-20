@@ -1,6 +1,7 @@
 
 import SwiftUI
 
+// third, add the Bio information 
 
 var janeAustenBio = Author(image: "Jane-Austen",
                            imageCredit: "Jane Austen, a 19th-century engraving likely derived from a portrait by her sister, Cassandra Austen, c. 1810.",
@@ -70,3 +71,31 @@ var miguelDeCervantesBio = Author(image: "Miguel-de-Cervantes",
                                smallBio: " Spanish novelist, playwright, and poet, the creator of Don Quixote (1605, 1615) and the most important and celebrated figure in Spanish literature. His novel Don Quixote has been translated, in full or in part, into more than 60 languages. Editions continue regularly to be printed, and critical discussion of the work has proceeded unabated since the 18th century. At the same time, owing to their widespread representation in art, drama, and film, the figures of Don Quixote and Sancho Panza are probably familiar visually to more people than any other imaginary characters in world literature. Cervantes was a great experimenter. He tried his hand in all the major literary genres save the epic. He was a notable short-story writer, and a few of those in his collection of Novelas exemplares (1613; Exemplary Stories) attain a level close to that of Don Quixote, on a miniature scale.",
                                sourceOfBio: "https://www.britannica.com/biography/Miguel-de-Cervantes",
                                navLinkView: AnyView(MigueldeCervantesListView()))
+
+var johnDonneBio = Author(image: "John-Donne",
+                          imageCredit: "Donne, painted by Isaac Oliver",
+                          name: "John Donne",
+                          born: "Born: Sometime between Jan. 24 and June 19, 1572, London, England",
+                          died: "Died: March 31, 1631, London",
+                          smallBio: """
+                          "Leading English poet of the Metaphysical school and dean of St. Paul’s Cathedral, London (1621–31).
+                          
+                          Donne is often considered the greatest love poet in the English language. He is also noted for his religious verse and treatises and for his sermons, which rank among the best of the 17th century.
+                          """,
+                          sourceOfBio: "https://www.britannica.com/biography/John-Donne",
+                          navLinkView: AnyView(JohnDonneListView()))
+
+var leoTolstoyBio = Author(image: "Leo-Tolstoy",
+                           imageCredit: "Source: Wikimedia.org",
+                           name: "Leo Tolstoy",
+                           born: "Born: September 9, 1828, Yasnaya Polyana, Tula province, Russian Empire",
+                           died: "Died: November 20, 1910, Astapovo, Ryazan province, Russian Empire",
+                           smallBio: """
+
+Russian author, a master of realistic fiction and one of the world’s greatest novelists.
+
+Tolstoy is best known for his two longest works, War and Peace (1865–69) and Anna Karenina (1875–77), which are commonly regarded as among the finest novels ever written. War and Peace in particular seems virtually to define this form for many readers and critics. Among Tolstoy’s shorter works, The Death of Ivan Ilyich (1886) is usually classed among the best examples of the novella. Especially during his last three decades Tolstoy also achieved world renown as a moral and religious teacher. His doctrine of nonresistance to evil had an important influence on Gandhi. Although Tolstoy’s religious ideas no longer command the respect they once did, interest in his life and personality has, if anything, increased over the years.
+""",
+                           sourceOfBio: "https://www.britannica.com/biography/Leo-Tolstoy",
+                           navLinkView: AnyView(LeoTolstoyListView()))
+

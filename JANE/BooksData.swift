@@ -1,6 +1,7 @@
 
 import Foundation
 
+// First add the books data
 
 struct JaneAustenBooks {
     static let bestWorks = [
@@ -35,7 +36,6 @@ struct JaneAustenBooks {
 
 struct IvanTurgenevBooks {
     static let bestWorks = [
-        
         Book(title: "A Sportsman's Sketches",
              description: "A Sportsman's Sketches; also known as The Hunting Sketches and Sketches from a Hunter's Album, was an 1852 collection of short stories by Ivan Turgenev. It was the first major writing that gained him recognition. He wrote this collection of short ...",
              url: URL(string: "https://books.google.com/books/content?id=rh4yvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
@@ -59,7 +59,7 @@ struct IvanTurgenevBooks {
         Book(title: "A Reckless Character and Other Stories",
              description: "No description available",
              url: URL(string: "https://books.google.com/books/content?id=NzZtswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
-       
+        
         Book(title: "First Love",
              description: "Isaiah Berlin's translation of the legendary Russian novella of growing up and heartbreak When the down-at-heel Princess Zasyekin moves next door to the country estate of Vladimir Petrovich's parents, he instantly and overwhelmingly falls in love ...",
              url: URL(string: "https://books.google.com/books/content?id=3xNp_TodsBwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
@@ -120,6 +120,37 @@ struct MiguelDeCervantesBooks {
         Book(title: "Novelas ejemplares",
              description: "Los mejores libros jamás escritos Edición ampliada, al cuidado de José Montero Reguera, catedrático de Literatura Española Con las Novelas ejemplares Cervantes da nueva muestra de su inmenso talento como escritor. Esta aventura cervantina, que ...",
              url: URL(string: "https://books.google.com/books/content?id=FqEEMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
+    ]
+}
+
+struct JohnDonneBooks {
+    static let bestWorks = [
+        Book(title: "The Complete Poetry and Selected Prose of John Donne",
+             description: "This Modern Library edition contains all of John Donne's great metaphysical love poetry. Here are such well-known songs and sonnets as A Valediction: Forbidding Mourning, The Extasie, and, A Nocturnall Upon S. Lucies Day, along with the love ...",
+             url: URL(string: "https://books.google.com/books/content?id=aZVBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        Book(title: "Devotions Upon Emergent Occasions",
+             description: "Written after the deaths of many friends and family members, this meditation on mortality by a great poet and lyrical writer reflects on the meaning of life, death, and salvation. Reprint. 12,500 first printing.",
+             url: URL(string: "https://books.google.com/books/content?id=JPXG6Q0XJqUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!)
+    ]
+}
+
+struct LeoTolstoyBooks {
+    static let bestWorks = [
+        Book(title: "Anna Karenina",
+             description: "Tolstoy produced many drafts of 'Anna Karenina'. Crafting and recrafting each sentence with careful intent, he was anything but casual in his use of language. His project, translator Marian Schwartz observes, 'was to bend language to his will, as ...",
+             url: URL(string: "https://books.google.com/books/content?id=7GlGrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+        Book(title: "War and Peace",
+             description: "Presents a new translation of the classic reflecting the life and times of Russian society during the Napoleonic Wars, in a book accompanied by an index of historical figures, textual annotation, a chapter summary, and an introduction.",
+             url: URL(string: "https://books.google.com/books/content?id=bL3VlijouIwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        Book(title: "Sevastopol Sketches (Sebastopol Sketches)",
+             description: "Sevastopol Sketches (Sebastopol Sketches) is a collection of three works of historical fiction in which Tolstoy draws upon his real life experiences during the Siege of Sevastopol. The titular location draws its name from that of a city in ...",
+             url: URL(string: "https://books.google.com/books/content?id=-BIxnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+        Book(title: "The Kreutzer Sonata",
+             description: "When Marshal of the Nobility Pozdnyshev suspects his wife of having an affair with her music partner, his jealousy consumes him and drives him to murder. Controversial upon publication in 1890, The Kreutzer Sonata illuminates Tolstoy’s then ...",
+             url: URL(string: "https://books.google.com/books/content?id=ReSHhEnpnesC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+        Book(title: "The Death of Ivan Ilyich",
+             description: "Tolstoy's The Death of Ivan Ilyich is the masterpiece of his late fiction. The book is about many things: the tyranny of bourgeois niceties, the terrible weak spots of the human heart, and it is about death. But more than anything, it deals with ...",
+             url: URL(string: "https://books.google.com/books/content?id=QwKWPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
     ]
 }
 

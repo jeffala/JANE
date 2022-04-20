@@ -17,6 +17,7 @@ struct BookDetailView: View {
                     }
                     Text(localBookInfo.title)
                         .font(.title)
+                        .multilineTextAlignment(.center)
                 }
                 Spacer()
                 Text(localBookInfo.description)
