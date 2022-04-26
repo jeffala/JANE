@@ -33,6 +33,12 @@ struct AuthorBioView: View {
                     .lineSpacing(10)
                     .padding()
                 Spacer()
+
+                Text("Citation: \(author.citation)")
+                    .padding(.horizontal)
+                    .multilineTextAlignment(.center)
+                    .font(.system(size: 15, weight: .bold, design: .rounded))
+                    .padding()
                 Link("Source of bio: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))
                     .padding(.horizontal)
             }

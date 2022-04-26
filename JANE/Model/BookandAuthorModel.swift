@@ -18,6 +18,6 @@ struct Author {
     var sourceOfBio: String
     var navLinkView: AnyView
     var navlinkName = "Books"
-    var citation: String?
+    var citation: String
 }
 

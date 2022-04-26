@@ -16,7 +16,8 @@ English writer who first gave the novel its distinctly modern character through 
 Her novels defined the era’s novel of manners, but they also became timeless classics that remained critical and popular successes for over two centuries after her death.
 """,
                            sourceOfBio: "https://www.britannica.com/biography/Jane-Austen",
-                           navLinkView: AnyView(JaneAustenWorksListView()))
+                           navLinkView: AnyView(JaneAustenWorksListView()),
+                           citation: "“Jane Austen.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/biography/Jane-Austen.")
 
 var harperLeeBio = Author(image: "Harper-Lee",
                           imageCredit: "Photo by Truman Capote; taken from 1st edition dust jacket, courtesy Printers Row Fine & Rare Books.",
@@ -29,7 +30,8 @@ var harperLeeBio = Author(image: "Harper-Lee",
    She moved to New York in 1949 and worked as a reservations clerk for Eastern Air Lines and British Overseas Airways. While in New York, she wrote several essays and short stories, but none were published. Her agent encouraged her to develop one short story into a novel. In order to complete it, Lee quit working and was supported by friends who believed in her work. In 1957, she submitted the manuscript to J. B. Lippincott Company. Although editors found the work too episodic, they saw promise in the book and encouraged Lee to rewrite it. In 1960, with the help of Lippincott editor Tay Hohoff, To Kill a Mockingbird was published.
    """,
                           sourceOfBio: "https://www.chipublib.org/harper-lee-biography/",
-                          navLinkView: AnyView(HarperLeeWorksListView()))
+                          navLinkView: AnyView(HarperLeeWorksListView()),
+                          citation: "“Harper Lee Biography.” Chicago Public Library, https://www.chipublib.org/harper-lee-biography/.")
 
 var ivanTurgenevBio = Author(image: "Ivan-Turgenev",
                           imageCredit: """
@@ -45,7 +47,8 @@ Turgenev poured into his writings not only a deep concern for the future of his 
 
 """,
                           sourceOfBio: "https://www.britannica.com/biography/Ivan-Sergeyevich-Turgenev",
-                          navLinkView: AnyView(IvanTurgenevWorksListView()))
+                             navLinkView: AnyView(IvanTurgenevWorksListView()),
+                             citation: "“Ivan Turgenev.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/biography/Ivan-Sergeyevich-Turgenev.")
 
 var georgeOrwellBio = Author(image: "George-Orwell",
                              imageCredit: "Free to use source",
@@ -59,16 +62,22 @@ Born Eric Arthur Blair, Orwell never entirely abandoned his original name, but h
 
 """,
                              sourceOfBio: "https://www.britannica.com/biography/George-Orwell",
-                             navLinkView: AnyView(GeorgeOrwellWorksListView()))
+                             navLinkView: AnyView(GeorgeOrwellWorksListView()),
+                             citation: "“George Orwell.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/biography/George-Orwell.")
 
 var miguelDeCervantesBio = Author(image: "Miguel-de-Cervantes",
                                imageCredit: "Miguel de Cervantes, engraving by E. Mackenzie after Gregorio Ferro and Fernando Selma; from The Imperial Dictionary of Universal Biography (1863).                               Hulton Archive/Getty Images",
                                name: "Miguel de Cervantes",
                                dateOfBirth: "Born: September 29?, 1547, Alcalá de Henares, Spain",
                                dateOfDeath: "Died: April 22, 1616, Madrid, Spain",
-                               smallBio: " Spanish novelist, playwright, and poet, the creator of Don Quixote (1605, 1615) and the most important and celebrated figure in Spanish literature. His novel Don Quixote has been translated, in full or in part, into more than 60 languages. Editions continue regularly to be printed, and critical discussion of the work has proceeded unabated since the 18th century. At the same time, owing to their widespread representation in art, drama, and film, the figures of Don Quixote and Sancho Panza are probably familiar visually to more people than any other imaginary characters in world literature. Cervantes was a great experimenter. He tried his hand in all the major literary genres save the epic. He was a notable short-story writer, and a few of those in his collection of Novelas exemplares (1613; Exemplary Stories) attain a level close to that of Don Quixote, on a miniature scale.",
+                               smallBio: """
+Spanish novelist, playwright, and poet, the creator of Don Quixote (1605, 1615) and the most important and celebrated figure in Spanish literature. His novel Don Quixote has been translated, in full or in part, into more than 60 languages. Editions continue regularly to be printed, and critical discussion of the work has proceeded unabated since the 18th century. At the same time, owing to their widespread representation in art, drama, and film, the figures of Don Quixote and Sancho Panza are probably familiar visually to more people than any other imaginary characters in world literature.
+
+Cervantes was a great experimenter. He tried his hand in all the major literary genres save the epic. He was a notable short-story writer, and a few of those in his collection of Novelas exemplares (1613; Exemplary Stories) attain a level close to that of Don Quixote, on a miniature scale.
+""",
                                sourceOfBio: "https://www.britannica.com/biography/Miguel-de-Cervantes",
-                               navLinkView: AnyView(MigueldeCervantesListView()))
+                                  navLinkView: AnyView(MigueldeCervantesListView()),
+                                  citation: "“Miguel De Cervantes.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/biography/Miguel-de-Cervantes.")
 
 var johnDonneBio = Author(image: "John-Donne",
                           imageCredit: "Donne, painted by Isaac Oliver",
@@ -81,7 +90,8 @@ var johnDonneBio = Author(image: "John-Donne",
                           Donne is often considered the greatest love poet in the English language. He is also noted for his religious verse and treatises and for his sermons, which rank among the best of the 17th century.
                           """,
                           sourceOfBio: "https://www.britannica.com/biography/John-Donne",
-                          navLinkView: AnyView(JohnDonneListView()))
+                          navLinkView: AnyView(JohnDonneListView()),
+                          citation: "“John Donne.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/biography/John-Donne.")
 
 var leoTolstoyBio = Author(image: "Leo-Tolstoy",
                            imageCredit: "Source: Wikimedia.org",
@@ -95,5 +105,6 @@ Russian author, a master of realistic fiction and one of the world’s greatest 
 Tolstoy is best known for his two longest works, War and Peace (1865–69) and Anna Karenina (1875–77), which are commonly regarded as among the finest novels ever written. War and Peace in particular seems virtually to define this form for many readers and critics. Among Tolstoy’s shorter works, The Death of Ivan Ilyich (1886) is usually classed among the best examples of the novella. Especially during his last three decades Tolstoy also achieved world renown as a moral and religious teacher. His doctrine of nonresistance to evil had an important influence on Gandhi. Although Tolstoy’s religious ideas no longer command the respect they once did, interest in his life and personality has, if anything, increased over the years.
 """,
                            sourceOfBio: "https://www.britannica.com/biography/Leo-Tolstoy",
-                           navLinkView: AnyView(LeoTolstoyListView()))
+                           navLinkView: AnyView(LeoTolstoyListView()),
+                           citation: "“Leo Tolstoy.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/biography/Leo-Tolstoy.")
 
