@@ -129,7 +129,7 @@ struct JohnDonneBooks {
              description: "This Modern Library edition contains all of John Donne's great metaphysical love poetry. Here are such well-known songs and sonnets as A Valediction: Forbidding Mourning, The Extasie, and, A Nocturnall Upon S. Lucies Day, along with the love ...",
              url: URL(string: "https://books.google.com/books/content?id=aZVBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
         Book(title: "Devotions Upon Emergent Occasions",
-             description: "Written after the deaths of many friends and family members, this meditation on mortality by a great poet and lyrical writer reflects on the meaning of life, death, and salvation. Reprint. 12,500 first printing.",
+             description: "Written after the deaths of many friends and family members, this meditation on mortality by a great poet and lyrical writer reflects on the meaning of life, death, and salvation.",
              url: URL(string: "https://books.google.com/books/content?id=JPXG6Q0XJqUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!)
     ]
 }

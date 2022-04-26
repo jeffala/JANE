@@ -17,6 +17,7 @@
 		4293D34527D836EF002FFF5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293D34427D836EF002FFF5F /* Assets.xcassets */; };
 		4293D34827D836EF002FFF5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4293D34727D836EF002FFF5F /* Preview Assets.xcassets */; };
 		42A6101F27DAE78D00EAF3C1 /* BioViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6101E27DAE78C00EAF3C1 /* BioViews.swift */; };
+		42AF5EA828176ACB006E4360 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AF5EA728176ACB006E4360 /* Launch Screen.storyboard */; };
 		42D5C43E27E0139400E6E8C4 /* BookandAuthorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D5C43D27E0139400E6E8C4 /* BookandAuthorModel.swift */; };
 		42D791DC2804EC3D00047B55 /* AuthorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D791DB2804EC3D00047B55 /* AuthorData.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		4293D34427D836EF002FFF5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4293D34727D836EF002FFF5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42A6101E27DAE78C00EAF3C1 /* BioViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViews.swift; sourceTree = "<group>"; };
+		42AF5EA728176ACB006E4360 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		42D5C43D27E0139400E6E8C4 /* BookandAuthorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookandAuthorModel.swift; sourceTree = "<group>"; };
 		42D791DB2804EC3D00047B55 /* AuthorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 			children = (
 				421892B527DAD62F000D921D /* Info.plist */,
 				4293D34027D836ED002FFF5F /* JANEApp.swift */,
+				42AF5EA728176ACB006E4360 /* Launch Screen.storyboard */,
 				421AE0ED27FE6BD600DB025B /* BooksData.swift */,
 				42D791DB2804EC3D00047B55 /* AuthorData.swift */,
 				42A6102027DAE79700EAF3C1 /* Model */,
@@ -175,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AF5EA828176ACB006E4360 /* Launch Screen.storyboard in Resources */,
 				4293D34827D836EF002FFF5F /* Preview Assets.xcassets in Resources */,
 				4293D34527D836EF002FFF5F /* Assets.xcassets in Resources */,
 			);
@@ -335,6 +339,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -367,6 +372,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
