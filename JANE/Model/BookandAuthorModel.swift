@@ -12,12 +12,12 @@ struct Author {
     var image: String
     var imageCredit: String
     var name: String
-    var born: String
-    var died: String
+    var dateOfBirth: String
+    var dateOfDeath: String
     var smallBio: String
     var sourceOfBio: String
     var navLinkView: AnyView
     var navlinkName = "Books"
-//  var citation = String
+    var citation: String?
 }
 

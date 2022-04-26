@@ -16,12 +16,14 @@ struct AuthorBioView: View {
                         .frame(width: 200, height: 250)
                     Text(author.imageCredit)
                         .font(.caption)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal)
                 }
                 Spacer()
-                Text(author.born)
+                Text(author.dateOfBirth)
                     .multilineTextAlignment(.center)
                 
-                Text(author.died)
+                Text(author.dateOfDeath)
                     .multilineTextAlignment(.center)
                     .padding()
                 
@@ -31,7 +33,8 @@ struct AuthorBioView: View {
                     .lineSpacing(10)
                     .padding()
                 Spacer()
-                Link("Source: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))
+                Link("Source of bio: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))
+                    .padding(.horizontal)
             }
             .navigationTitle(author.name)
             .toolbar {
