@@ -9,12 +9,12 @@ struct HomeView: View {
         NavigationView {
             List {
                 NavigationLink("Jane Austen", destination: JaneAustenView())
-                NavigationLink("Harper Lee", destination: HarperLeeView())
-                NavigationLink("Ivan Turgenev", destination: IvanTurgenevView())
-                NavigationLink("George Orwell", destination: GeorgeOrwellView())
-                NavigationLink("Miguelde de Cervantes", destination: MigueldeCervantesView())
                 NavigationLink("John Donne", destination: JohnDonneView())
+                NavigationLink("Miguelde de Cervantes", destination: MigueldeCervantesView())
+                NavigationLink("Harper Lee", destination: HarperLeeView())
                 NavigationLink("Leo Tolstoy", destination: LeoTolstoyView())
+                NavigationLink("George Orwell", destination: GeorgeOrwellView())
+                NavigationLink("Ivan Turgenev", destination: IvanTurgenevView())
             }
             .navigationTitle("Authors")
         }
