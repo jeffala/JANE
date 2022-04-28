@@ -9,38 +9,19 @@ struct AuthorBioView: View {
         ScrollView {
             VStack(spacing: 10) {
                 Spacer()
-                HStack {
-                    Image(author.image)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 200, height: 250)
-                    Text(author.imageCredit)
-                        .font(.caption)
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal)
+                AuthorImageView(author: author)
+                Spacer()
+                LifeDatesView(author: author)
+                Spacer()
+                BioTextView(author: author)
+                Spacer()
+                VStack(spacing: 25) {
+                    CitationView(author: author)
+                    SourceView(author: author)
                 }
-                Spacer()
-                Text(author.dateOfBirth)
-                    .multilineTextAlignment(.center)
-                
-                Text(author.dateOfDeath)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                
-                Text(author.smallBio)
-                    .font(.title3)
-                    .multilineTextAlignment(.center)
-                    .lineSpacing(10)
-                    .padding()
-                Spacer()
-
-                Text("Citation: \(author.citation)")
-                    .padding(.horizontal)
-                    .multilineTextAlignment(.center)
-                    .font(.system(size: 15, weight: .bold, design: .rounded))
-                    .padding()
-                Link("Source of bio: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))
-                    .padding(.horizontal)
+                .padding()
+                .border(Color.gray, width: 7)
+                .multilineTextAlignment(.center)
             }
             .navigationTitle(author.name)
             .toolbar {
