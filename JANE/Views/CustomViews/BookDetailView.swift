@@ -3,24 +3,24 @@ import SwiftUI
 
 
 struct BookDetailView: View {
-    var localBookInfo: Book
+    var bookInfo: Book
 
     var body: some View {
         ScrollView {
             VStack {
                 Spacer()
                 VStack(spacing: 15) {
-                    AsyncImage(url: localBookInfo.url) { returnedImage in
+                    AsyncImage(url: bookInfo.imageURL) { returnedImage in
                         returnedImage.resizable().frame(width: 128, height: 197)
                     } placeholder: {
                         ProgressView()
                     }
-                    Text(localBookInfo.title)
+                    Text(bookInfo.title)
                         .font(.title)
                         .multilineTextAlignment(.center)
                 }
                 Spacer()
-                Text(localBookInfo.description)
+                Text(bookInfo.description)
                     .multilineTextAlignment(.center)
                     .lineSpacing(10)
                     .padding()
@@ -34,6 +34,6 @@ struct BookDetailView: View {
 
 struct BookDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BookDetailView(localBookInfo: JaneAustenBooks.bestWorks.first!)
+        BookDetailView(bookInfo: JaneAustenBooks.bestWorks.first!)
     }
 }

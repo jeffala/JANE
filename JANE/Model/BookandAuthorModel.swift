@@ -5,7 +5,8 @@ struct Book: Identifiable {
     var id = UUID()
     var title: String
     var description: String
-    var url: URL
+    var imageURL: URL
+    //var descriptionCitation: String
 }
 
 struct Author {
@@ -18,6 +19,6 @@ struct Author {
     var sourceOfBio: String
     var navLinkView: AnyView
     var navlinkName = "Books"
-    var citation: String
+    var bioSourceCitation: String
 }
 
