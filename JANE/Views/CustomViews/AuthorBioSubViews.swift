@@ -26,11 +26,11 @@ struct LifeDatesView: View {
     var body: some View {
         VStack(spacing: 25) {
             Text("Born: ")
-                .foregroundColor(.green)
+                .foregroundColor(.blue)
                 .fontWeight(.bold)
             + Text(author.dateOfBirth)
             Text("Died: ")
-                .foregroundColor(.red)
+                .foregroundColor(.blue)
                 .fontWeight(.bold)
             + Text(author.dateOfDeath)
         }
@@ -70,6 +70,6 @@ struct SourceView: View {
 
 struct SubViews_Previews: PreviewProvider {
     static var previews: some View {
-        SourceView(author: janeAustenBio)
+        LifeDatesView(author: janeAustenBio)
     }
 }
