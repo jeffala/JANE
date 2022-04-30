@@ -6,27 +6,40 @@ import Foundation
 struct JaneAustenBooks {
     static let bestWorks = [
         Book(title: "Pride and Prejudice",
-             description: "Elizabeth Bennet's early determination to dislike Mr. Darcy is a prejudice only matched by his arrogant pride.",
-             imageURL: URL(string: "https://books.google.com/books/content?id=5GbdTc9OJ78C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
-        
+             description: "The novel opens with one of the most famous lines in English literature: “It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.” The statement is seemingly what Mrs. Bennet thinks as she sets her sights on the newly arrived Bingley, who she is sure will make a suitable husband for one of her daughters. At a ball, Bingley takes an immediate interest in the beautiful and shy Jane. The encounter between his friend Darcy and Elizabeth is less cordial. Although Austen shows them intrigued by each other, she reverses the convention of first impressions: the pride of rank and fortune and prejudice against the social inferiority of Elizabeth’s family hold Darcy aloof, while the pride of self-respect and prejudice against Darcy’s snobbery hold Elizabeth equally aloof.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=5GbdTc9OJ78C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+             sourceOfDesc: "https://www.britannica.com/topic/Pride-and-Prejudice",
+             descSourceCitation: "“Pride and Prejudice.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/topic/Pride-and-Prejudice."),
         
         Book(title: "Persuasion",
-             description: "Jane Austen's last completed novel, marrying witty social realism to a Cinderella love story At twenty-­seven, Anne Elliot is no longer young and has few romantic prospects. Eight years earlier, she had been persuaded by her friend Lady Russell to ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=9IQqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
-        
+             description: """
+             The story concerns Anne Elliot, a young Englishwoman of twenty-seven years, whose family moves to lower their expenses and reduce their debt by renting their home to an Admiral and his wife. The wife's brother, Navy Captain Frederick Wentworth, was engaged to Anne in 1806, but the engagement was broken when Anne was "persuaded" by her friends and family to end their relationship. Anne and Captain Wentworth, both single and unattached, meet again after a seven-year separation, setting the scene for many humorous encounters as well as a second, well-considered chance at love and marriage for Anne in her second "bloom".
+             
+             The novel was well-received in the early 19th century, but its greater fame came later in the century and continued into the 20th and 21st centuries. Much scholarly debate on Austen's work has since been published. Anne Elliot is noteworthy among Austen's heroines for her relative maturity. As Persuasion was Austen's last completed work, it is accepted as her most maturely written novel, showing a refinement of literary conception indicative of a woman approaching forty years of age. Her use of free indirect discourse in narrative was in full evidence by 1816.
+
+             Persuasion has been the subject of several adaptations, including four made-for-television adaptations, theatre productions, radio broadcasts, and other literary works.
+             """,
+             imageURL: URL(string: "https://books.google.com/books/content?id=9IQqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/Persuasion_(novel)",
+            descSourceCitation: "“Persuasion (Novel).” Wikipedia, Wikimedia Foundation, 21 Apr. 2022, https://en.wikipedia.org/wiki/Persuasion_(novel)."),
         
         Book(title: "Emma",
-             description: "The culmination of Jane Austen's genius, a sparkling comedy of love and marriage Now a major motion picture starring Anya Taylor-Joy Beautiful, clever, rich—and single—Emma Woodhouse is perfectly content with her life and sees no need for ...",
-             imageURL: URL(string:  "https://books.google.com/books/content?id=6-ndr-0EMycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
-        
+             description: "Fourth novel by Jane Austen, published in three volumes in 1815. Set in Highbury, England, in the early 19th century, the novel centres on Emma Woodhouse, a precocious young woman whose misplaced confidence in her matchmaking abilities occasions several romantic misadventures.",
+             imageURL: URL(string:  "https://books.google.com/books/content?id=6-ndr-0EMycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://www.britannica.com/topic/Emma-novel-by-Austen",
+        descSourceCitation: "“Emma.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/topic/Emma-novel-by-Austen."),
         
         Book(title: "Sense and Sensibility",
-             description: "Jane Austen's first published work, meticulously constructed and sparkling with her unique wit Marianne Dashwood wears her heart on her sleeve, and when she falls in love with the dashing but unsuitable John Willoughby she ignores her sister ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=P2h8CtM-pFEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "Sense and Sensibility tells the story of the impoverished Dashwood family, focusing on the sisters Elinor and Marianne, personifications of good sense (common sense) and sensibility (emotionality), respectively. They become destitute upon the death of their father, who leaves his home, Norland Park, to their half brother, John. Although instructed to take care of his sisters, John is dissuaded of his duty by his greedy wife, Fanny. The family—which, in addition to Elinor and Marianne, includes their mother and a younger sister—moves to Barton Cottage in Devonshire. There the open and enthusiastic Marianne meets Colonel Brandon, a staid and settled bachelor 20 years her senior. Although he expresses an interest in Marianne, she discourages his attention and instead becomes infatuated with the attractive John Willoughby, who seems to be a romantic lover but is in reality an unscrupulous fortune hunter. He deserts Marianne for an heiress, and she eventually makes a sensible marriage with Colonel Brandon.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=P2h8CtM-pFEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://www.britannica.com/topic/Sense-and-Sensibility",
+            descSourceCitation: "“Sense and Sensibility.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/topic/Sense-and-Sensibility."),
         
         Book(title: "Mansfield Park",
-             description: "Taken from the poverty of her parents' home in Portsmouth, Fanny Price is brought up with her rich cousins at Mansfield Park, acutely aware of her humble rank and with her cousin Edmund as her sole ally. During her uncle's absence in Antigua, the ...",
-             imageURL: URL(string:  "https://books.google.com/books/content?id=krnu-3b88JgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "The novel tells the story of Fanny Price, starting when her overburdened family sends her at the age of ten to live in the household of her wealthy aunt and uncle and following her development into early adulthood. From early on critical interpretation has been diverse, differing particularly over the character of the heroine, Austen's views about theatrical performance and the centrality or otherwise of ordination and religion, and on the question of slavery. Some of these problems have been highlighted in the several later adaptations of the story for stage and screen.",
+             imageURL: URL(string:  "https://books.google.com/books/content?id=krnu-3b88JgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/Mansfield_Park",
+            descSourceCitation: "“Mansfield Park.” Wikipedia, Wikimedia Foundation, 30 Mar. 2022, https://en.wikipedia.org/wiki/Mansfield_Park."),
         
         Book(title: "Northanger Abbey",
              description: "During an eventful season at Bath, young, naïve Catherine Morland experiences the joys of fashionable society for the first time. She is delighted with her new acquaintances: flirtatious Isabella, who shares Catherine's love of Gothic romance and ...",

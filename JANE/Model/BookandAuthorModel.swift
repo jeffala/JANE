@@ -6,7 +6,9 @@ struct Book: Identifiable {
     var title: String
     var description: String
     var imageURL: URL
-    //var descriptionCitation: String
+    var sourceOfDesc: String
+    var descSourceCitation: String
+    
 }
 
 struct Author {

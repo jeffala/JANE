@@ -15,36 +15,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeatherBook" translatesAutoresizingMaskIntoConstraints="NO" id="k8X-EE-Tt3">
-                                <rect key="frame" x="-38" y="-935" width="1399" height="1868"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="books" translatesAutoresizingMaskIntoConstraints="NO" id="k8X-EE-Tt3">
+                                <rect key="frame" x="-62" y="-11" width="617" height="960"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JANE" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
-                                <rect key="frame" x="141" y="309" width="133" height="63"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="     Authors and their works" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Gu-29-U2n">
-                                <rect key="frame" x="52" y="380" width="321" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="0Gu-29-U2n" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="52" id="2pZ-Yq-iQE"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="265" id="3dA-R9-WHj"/>
                             <constraint firstAttribute="trailing" secondItem="k8X-EE-Tt3" secondAttribute="trailing" constant="-947" id="4DJ-fT-Su5"/>
                             <constraint firstAttribute="bottom" secondItem="k8X-EE-Tt3" secondAttribute="bottom" constant="-37" id="CrK-3E-b59"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="0Gu-29-U2n" secondAttribute="trailing" constant="41" id="MgS-Yw-6Nh"/>
-                            <constraint firstItem="0Gu-29-U2n" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="8" symbolic="YES" id="N3C-V4-rfx"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" constant="140" id="b7b-9C-Fiu"/>
-                            <constraint firstItem="k8X-EE-Tt3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-38" id="edw-NW-O18"/>
-                            <constraint firstItem="k8X-EE-Tt3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-935" id="rhy-t4-J99"/>
-                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="141" id="tgN-7w-0nA"/>
+                            <constraint firstItem="k8X-EE-Tt3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-62" id="Wmy-UZ-bj3"/>
+                            <constraint firstItem="k8X-EE-Tt3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-11" id="flX-KF-j7a"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -54,6 +36,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LeatherBook" width="1399" height="1868"/>
+        <image name="books" width="960" height="1500"/>
     </resources>
 </document>
