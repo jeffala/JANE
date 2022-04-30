@@ -126,14 +126,22 @@ struct GeorgeOrwellBooks {
              descSourceCitation: "“Animal Farm - Plot Summary - Plot Summary - GCSE English Literature Revision - BBC Bitesize.” BBC News, BBC, https://www.bbc.co.uk/bitesize/guides/z9w7mp3/revision/1."),
         
         Book(title: "A Clergyman’s Daughter",
-             description: "A pious young woman grapples with a loss of memory—and of faith—in this sharp, witty novel by the author of 1984 and Animal Farm. Dorothy is the daughter of the Reverend Charles Hare, rector of St. Athelstan’s in Depression-era Suffolk, England ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=LsKtkkz06RwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "Dorothy Hare, only child of the rector in a small Suffolk village, is an obedient assistant to her unfeeling, humourless widowed father. Most of her time is spent keeping his creditors at bay, and helping local charities. Her only friend is the incorrigible Mr Warburton, who knows the whole village is talking about him behind his back, and doesn't care. After she dines with him alone one evening, he walks her back home, and tries to kiss her goodbye but is firmly rebuffed. Their busybody neighbour Mrs Semprill sees them, and immediately tells everyone else in the village.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=LsKtkkz06RwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "http://allreaders.com/book-review-summary/clergymans-daughter-33299",
+            descSourceCitation: "“A Clergyman's Daughter Book Summary and Study Guide.” Detailed Review Summary of A Clergyman's Daughter by George Orwell, http://allreaders.com/book-review-summary/clergymans-daughter-33299."),
+        
         Book(title: "Down and Out in Paris and London",
-             description: "No description available",
-             imageURL: URL(string: "https://books.google.com/books/content?id=PN2SAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "The first full-length work by the English author George Orwell, published in 1933. It is a memoir[2] in two parts on the theme of poverty in the two cities. Its target audience was the middle- and upper-class members of society—those who were more likely to be well educated—and exposes the poverty existing in two prosperous cities: Paris and London. The first part is an account of living in near-extreme poverty destitution in Paris and the experience of casual labour in restaurant kitchens. The second part is a travelogue of life on the road in and around London from the tramp's perspective, with descriptions of the types of hostel accommodation available and some of the characters to be found living on the margins.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=PN2SAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/Down_and_Out_in_Paris_and_London",
+            descSourceCitation: "“Down and out in Paris and London.” Wikipedia, Wikimedia Foundation, 11 Feb. 2022, https://en.wikipedia.org/wiki/Down_and_Out_in_Paris_and_London. "),
+        
         Book(title: "Keep the Aspidistra Flying",
-             description: "Gordon Comstock loathes dull, middle-class respectability and worship of money. He gives up a 'good job' in advertising to work part-time in a bookshop, giving him more time to write. But he slides instead into a self-induced poverty that ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=kWuOngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
+             description: "Gordon Comstock has 'declared war' on what he sees as an 'overarching dependence' on money by leaving a promising job as a copywriter for an advertising company called 'New Albion'—at which he shows great dexterity—and taking a low-paying job instead, ostensibly so he can write poetry. Coming from a respectable family background in which the inherited wealth has now become dissipated, Gordon resents having to work for a living. The 'war' (and the poetry), however, aren't going particularly well and, under the stress of his 'self-imposed exile' from affluence, Gordon has become absurd, petty and deeply neurotic.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=kWuOngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/Keep_the_Aspidistra_Flying",
+            descSourceCitation: "“Keep the Aspidistra Flying.” Wikipedia, Wikimedia Foundation, 6 Apr. 2022, https://en.wikipedia.org/wiki/Keep_the_Aspidistra_Flying.")
         
     ]
 }
@@ -141,57 +149,97 @@ struct GeorgeOrwellBooks {
 struct HarperLeeBooks {
     static let bestWorks = [
         Book(title: "To Kill a Mockingbird",
-             description: "Voted America's Best-Loved Novel in PBS's The Great American Read Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred One of the most ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "To Kill a Mockingbird takes place in the fictional town of Maycomb, Alabama, during the Great Depression. The protagonist is Jean Louise (“Scout”) Finch, an intelligent though unconventional girl who ages from six to nine years old during the course of the novel. She is raised with her brother, Jeremy Atticus (“Jem”), by their widowed father, Atticus Finch. He is a prominent lawyer who encourages his children to be empathetic and just. He notably tells them that it is “a sin to kill a mockingbird,” alluding to the fact that the birds are innocent and harmless.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://www.britannica.com/topic/To-Kill-a-Mockingbird",
+            descSourceCitation: "“To Kill a Mockingbird.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/topic/To-Kill-a-Mockingbird."),
         
         Book(title: "Go Set a Watchman",
-             description: "A historic literary event: the publication of a newly discovered novel, the earliest known work from Harper Lee, the beloved, bestselling author of the Pulitzer Prize-winning classic, To Kill a Mockingbird. Originally written in the mid-1950s, Go ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=OQR4BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api")!)
+             description: "Jean Louise 'Scout' Finch, a single 26-year-old, returns from New York to her hometown, Maycomb, Alabama, for her annual fortnight-long visit to her father Atticus, a lawyer and former state legislator. Jack, her uncle and a retired doctor, is Scout's mentor. Alexandra, her aunt, moved in with her brother Atticus to help him around the house after Calpurnia, their housekeeper, retired. Jean Louise's brother, Jeremy 'Jem' Finch, has died of the same heart condition which killed his mother. Upon her arrival in Maycomb, she is met by her childhood sweetheart Henry 'Hank' Clinton, who works for Atticus. When returning from Finch's Landing, Jean Louise and Henry are passed by a car full of black men travelling at a dangerously high speed; Henry mentions that the Black people in the county have money for cars but are without licenses and insurance.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=OQR4BgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api")!,
+             sourceOfDesc: "https://en.wikipedia.org/wiki/Go_Set_a_Watchman",
+             descSourceCitation: "“Go Set a Watchman.” Wikipedia, Wikimedia Foundation, 2 Apr. 2022, https://en.wikipedia.org/wiki/Go_Set_a_Watchman.")
     ]
 }
 
 struct MiguelDeCervantesBooks {
     static let bestWorks = [
+        
         Book(title: "Don Quixote",
-             description: "James Montgomery's new translation of Don Quixote is the fourth already in the twenty-first century, and it stands with the best of them. It pays particular attention to what may be the hardest aspect of Cervantes's novel to render into English ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=3qxaBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: """
+             A middle-aged man named Alonso Quixano, a skinny bachelor and a lover of chivalry romances, loses his mind and decides to become a valiant knight. He names himself Don Quixote de la Mancha, names his bony horse Rocinante, and gives his beloved the sweet name Dulcinea.
+             
+             In a few days’ time, Don Quixote puts on a rusty suit of armor and sets out on his first sally. He is knighted at an inn, which he takes to be a castle, defends a young shepherd from his angry master, and receives a beating from some merchants, who are ignorant of the rules of knight-errantry. He returns to his village to recover.
+             """,
+             imageURL: URL(string: "https://books.google.com/books/content?id=3qxaBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+             sourceOfDesc: "https://www.litcharts.com/lit/don-quixote/summary",
+             descSourceCitation: "LitCharts. “Don Quixote Summary.” LitCharts, https://www.litcharts.com/lit/don-quixote/summary."),
+        
         Book(title: "La Galatea",
-             description: "Considered by many as the greatest of all Spanish authors, Miguel de Cervantes is most well-known of course for \"Don Quixote,\" a work of such literary impact that its historical importance cannot be understated. Unfortunately Cervantes' other ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=ze74oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+             description: "The main characters of the Galatea are Elicio and Erastro, best friends and both in love with Galatea. The novel opens with her and her best friend, Florisa, bathing, talking of love. Erastro and Elicio reveal to each other their desire for Galatea, but agree not to let it come between their friendship. Eventually, all four of them begin their journey to the wedding of Daranio and Silveria, along which, in the pastoral tradition, they encounter other characters who tell their own stories and often join the traveling group.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=ze74oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/La_Galatea",
+            descSourceCitation: "“La Galatea.” Wikipedia, Wikimedia Foundation, 26 Mar. 2022, https://en.wikipedia.org/wiki/La_Galatea."),
+        
         Book(title: "Novelas ejemplares",
-             description: "Los mejores libros jamás escritos Edición ampliada, al cuidado de José Montero Reguera, catedrático de Literatura Española Con las Novelas ejemplares Cervantes da nueva muestra de su inmenso talento como escritor. Esta aventura cervantina, que ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=FqEEMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
+             description: "Miguel de Cervantes's Novelas ejemplares, a collection of short stories in the tradition of Boccaccio, has a solid foundation in the history of Golden Age Spain. Joseph V Ricapito studies Cervantes's work from the point of view of 'novelized history' or 'history novelized.' In line with current New Historical thought, he argues that literary production is largely from life and experience, and that Cervantes was acutely aware of the problems of his day.The novelas offer us a glimpse of Cervantes's Spain and include a cataloguing of the social, political, and historical problems of the time. Ricapitc shows how Cervantes fictionalizes the problems of unpopular minorities like Gypsies and conversos (Jewish converts to Catholicism); the difficulties of social mobility in a Christian setting; the presence in society of differing and even outlandish individuals; and the oppressive role of honor, which was popularized by Lope de Vega and later formed a leitmotiv of Spanish drama. In his analysis of Cervantes's creative response to history, Ricapito relates the novelas to the works of Lope de Vega and Mateo Aleman and shows how Cervantes brings to life many literary topoi and places them in a realistic, credible framework in which the historical presence is strongly felt. In Cervantes's treatment of Spain's waning prestige in Europe, we see his vision of human behavior. His view is stern, his critique is sharp, and he is sensitive to external stimuli.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=FqEEMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!,
+            sourceOfDesc: "https://muse.jhu.edu/book/12379",
+            descSourceCitation: "“Cervantes's Novelas Ejemplares: Between History and Creativity.” Project MUSE, https://muse.jhu.edu/book/12379.")
+        
     ]
 }
 
 struct JohnDonneBooks {
     static let bestWorks = [
+        
         Book(title: "The Complete Poetry and Selected Prose of John Donne",
-             description: "This Modern Library edition contains all of John Donne's great metaphysical love poetry. Here are such well-known songs and sonnets as A Valediction: Forbidding Mourning, The Extasie, and, A Nocturnall Upon S. Lucies Day, along with the love ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=aZVBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "Donne's style is characterised by abrupt openings and various paradoxes, ironies and dislocations. These features, along with his frequent dramatic or everyday speech rhythms, his tense syntax and his tough eloquence, were both a reaction against the smoothness of conventional Elizabethan poetry and an adaptation into English of European baroque and mannerist techniques.[4] His early career was marked by poetry that bore immense knowledge of English society. Another important theme in Donne's poetry is the idea of true religion, something that he spent much time considering and about which he often theorised. He wrote secular poems as well as erotic and love poems. He is particularly famous for his mastery of metaphysical conceits.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=aZVBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/John_Donne",
+            descSourceCitation: "“John Donne.” Wikipedia, Wikimedia Foundation, 28 Apr. 2022, https://en.wikipedia.org/wiki/John_Donne."),
+        
         Book(title: "Devotions Upon Emergent Occasions",
-             description: "Written after the deaths of many friends and family members, this meditation on mortality by a great poet and lyrical writer reflects on the meaning of life, death, and salvation.",
-             imageURL: URL(string: "https://books.google.com/books/content?id=JPXG6Q0XJqUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!)
+             description: "Devotions upon Emergent Occasions is a 1624 prose work by the English writer John Donne. It is a series of reflections that were written as Donne recovered from a serious illness, believed to be either typhus or relapsing fever. (Donne does not clearly identify the disease in his text.) The work consists of twenty-three parts describing each stage of the sickness. Each part is further divided into a Meditation, an Expostulation, and a Prayer.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=JPXG6Q0XJqUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://librivox.org/devotions-upon-emergent-occasions-by-john-donne/",
+            descSourceCitation: "LibriVox. Librivox, https://librivox.org/devotions-upon-emergent-occasions-by-john-donne/.")
     ]
 }
 
 struct LeoTolstoyBooks {
     static let bestWorks = [
+        
         Book(title: "Anna Karenina",
-             description: "Tolstoy produced many drafts of 'Anna Karenina'. Crafting and recrafting each sentence with careful intent, he was anything but casual in his use of language. His project, translator Marian Schwartz observes, 'was to bend language to his will, as ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=7GlGrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+             description: "The narrative centres on the adulterous affair between Anna, wife of Aleksey Karenin, and Count Vronsky, a young bachelor. Karenin’s discovery of the liaison arouses only his concern for his own public image. Anna promises discretion for the sake of her husband and young son but eventually becomes pregnant by Vronsky. After the child is born, Anna and the child accompany Vronsky first to Italy and then to his Russian estate. She begins making furtive trips to see her older child and grows increasingly bitter toward Vronsky, eventually regarding him as unfaithful. In desperation she goes to the train station, purchases a ticket, and then impulsively throws herself in front of the incoming train. A parallel love story, involving the difficult courtship and fulfilling marriage of Kitty and Levin, provides a rich counterpoint to the tragedy and is thought to reflect Tolstoy’s own marital experience.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=7GlGrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!,
+            sourceOfDesc: "https://www.britannica.com/topic/Anna-Karenina-novel",
+            descSourceCitation: "“Anna Karenina.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/topic/Anna-Karenina-novel."),
+        
         Book(title: "War and Peace",
-             description: "Presents a new translation of the classic reflecting the life and times of Russian society during the Napoleonic Wars, in a book accompanied by an index of historical figures, textual annotation, a chapter summary, and an introduction.",
-             imageURL: URL(string: "https://books.google.com/books/content?id=bL3VlijouIwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "War and Peace begins in the Russian city of St. Petersburg in 1805, as fear of Napoleon’s ongoing war making begins to set in. Most of the characters are introduced at a party, including Pierre Bezukhov, Andrey Bolkonsky, and the Kuragin and Rostov families. Much of the novel focuses on the interactions between the Bezukhovs, Bolkonskys, and the Rostovs. After their introduction, Andrey Bolkonsky and Nikolay Rostov go to the Austrian front under General Kutuzov, a fictional representation of Mikhail Kutuzov, to engage with Napoleon’s troops. Andrey is then injured at the Battle of Austerlitz and presumed dead, until he arrives home to his wife, Lise, who dies during childbirth soon after. Pierre, meanwhile, has married Helene Kuragina. She is unfaithful to him, and Pierre duels with the other man, almost killing him. He soon becomes overwhelmed by his marriage and leaves Helene. He joins the Freemasons, which influences his personal and business fortunes greatly. In the meantime Nikolay has racked up a large amount of gambling debt, which causes the Rostov family to lose most of their fortune. He is encouraged to marry a wealthy heiress, despite promising to marry Sonya, his cousin. Nikolay eventually witnesses the peace between Tsar Alexander I and Napoleon (Treaties of Tilsit, signed in 1807). Andrey soon becomes involved with Natasha Rostov only to be told by his father that he must wait a year before marrying her. After some time away, Andrey discovers that Natasha has been unfaithful. He rejects her, and Pierre consoles her, eventually falling in love with her.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=bL3VlijouIwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://www.britannica.com/topic/War-and-Peace",
+            descSourceCitation: "“War and Peace.” Encyclopædia Britannica, Encyclopædia Britannica, Inc., https://www.britannica.com/topic/War-and-Peace."),
+      
         Book(title: "Sevastopol Sketches (Sebastopol Sketches)",
-             description: "Sevastopol Sketches (Sebastopol Sketches) is a collection of three works of historical fiction in which Tolstoy draws upon his real life experiences during the Siege of Sevastopol. The titular location draws its name from that of a city in ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=-BIxnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!),
+             description: "Tolstoy’s Sevastopol Sketches are an early work of the great Russian, taking us behind the Russian lines at the Siege of Sevastopol (October 1854 – September 1855) in the Crimean War. It is interesting because although that war has been much mythologised in my own country – one need only speak the name “Florence Nightingale” and a floating lamp will appear, while Tennyson’s “The Charge of the Light Brigade” is one of the few poems whose lines probably remain burned into the British poetic public consciousness – in Russia one often has the sensation that there was no Crimean War at all. A defeat when the ruling elites were still convinced their country was undefeatable led to a series of reforms culminating in the emancipation of the Russian serfs in 1861.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=-BIxnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!,
+            sourceOfDesc: "https://mostlyaboutstories.com/leo-tolstoy-the-sevastopol-sketches/",
+            descSourceCitation: "Angus, Author. “Leo Tolstoy - The Sevastopol Sketches.” Mostly About Stories, 23 Jan. 2022, https://mostlyaboutstories.com/leo-tolstoy-the-sevastopol-sketches/."),
+ 
         Book(title: "The Kreutzer Sonata",
-             description: "When Marshal of the Nobility Pozdnyshev suspects his wife of having an affair with her music partner, his jealousy consumes him and drives him to murder. Controversial upon publication in 1890, The Kreutzer Sonata illuminates Tolstoy’s then ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=ReSHhEnpnesC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!),
+             description: "During a train ride, Pozdnyshev overhears a conversation concerning marriage, divorce and love. When a woman argues that marriage should not be arranged but based on true love, he asks 'what is love?' and points out that, if understood as an exclusive preference for one person, it often passes quickly. Convention dictates that two married people stay together, and initial love can quickly turn into hatred. He then relates how he used to visit prostitutes when he was young, and complains that women's dresses are designed to arouse men's desires. He further states that women will never enjoy equal rights to men as long as men view them as objects of desire, yet describes their situation as a form of power over men, mentioning how much of society is geared towards their pleasure and well-being and how much sway they have over men's actions.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=ReSHhEnpnesC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api")!,
+            sourceOfDesc: "https://en.wikipedia.org/wiki/The_Kreutzer_Sonata",
+             descSourceCitation: "“The Kreutzer Sonata.” Wikipedia, Wikimedia Foundation, 19 Jan. 2022, https://en.wikipedia.org/wiki/The_Kreutzer_Sonata."),
+  
         Book(title: "The Death of Ivan Ilyich",
-             description: "Tolstoy's The Death of Ivan Ilyich is the masterpiece of his late fiction. The book is about many things: the tyranny of bourgeois niceties, the terrible weak spots of the human heart, and it is about death. But more than anything, it deals with ...",
-             imageURL: URL(string: "https://books.google.com/books/content?id=QwKWPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!)
+             description: "During an interval in a trial, several legal professionals converse in a private room. Peter Ivánovich, the title character's closest friend, reads in the obituaries that Iván Ilych has died. Iván Ilych had been terminally ill for some time. He was the colleague of the men present. The men immediately think, each to himself, of how Iván Ilych's death may result in promotion for them all. Each man thinks gratefully that Iván Ilych is dead and not he. They also think of how they will be forced to go through all the tedious business of paying respects and visiting the family.",
+             imageURL: URL(string: "https://books.google.com/books/content?id=QwKWPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api")!,
+            sourceOfDesc: "https://www.gradesaver.com/the-death-of-ivan-ilych/study-guide/summary",
+            descSourceCitation: "Tolstoy, Leo, et al. “The Death of Ivan Ilych Summary.” GradeSaver, https://www.gradesaver.com/the-death-of-ivan-ilych/study-guide/summary.")
+        
     ]
 }
 
