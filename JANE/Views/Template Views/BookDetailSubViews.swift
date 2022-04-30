@@ -22,10 +22,27 @@ struct BookDescriptionView: View {
     var bookInfo: Book
     var body: some View {
         Text(bookInfo.description)
+            .font(.system(size: 20, weight: .medium, design: .rounded))
             .multilineTextAlignment(.center)
             .lineSpacing(10)
-            .font(.title2)
             .padding()
+        
+    }
+}
+
+struct BookCitationView: View {
+    var bookInfo: Book
+    var body: some View {
+        Text("Citation: ")
+            .foregroundColor(.blue)
+        + Text(bookInfo.descSourceCitation)
+    }
+}
+
+struct BookSourceView: View {
+    var bookInfo: Book
+    var body: some View {
+        Link("Source of info: \(bookInfo.sourceOfDesc)", destination: (URL(string: bookInfo.sourceOfDesc)!))
     }
 }
 

@@ -51,7 +51,7 @@ struct BioTextView: View {
     }
 }
 
-struct CitationView: View {
+struct BioCitationView: View {
     var author: Author
     var body: some View {
         Text("Citation: ")
@@ -60,7 +60,7 @@ struct CitationView: View {
     }
 }
 
-struct SourceView: View {
+struct BioSourceView: View {
     var author: Author
     var body: some View {
         Link("Source of bio: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))

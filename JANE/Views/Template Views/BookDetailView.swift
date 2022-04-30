@@ -14,7 +14,13 @@ struct BookDetailView: View {
                 BookDescriptionView(bookInfo: bookInfo)
                     .padding(.top, 45)
                 Spacer()
-                Spacer()
+                VStack(spacing: 25) {
+                    BookCitationView(bookInfo: bookInfo)
+                    BookSourceView(bookInfo: bookInfo)
+                }
+                .padding()
+                .border(Color.gray, width: 7)
+                .multilineTextAlignment(.center)
             }
         }
     }
