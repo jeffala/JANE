@@ -16,8 +16,8 @@ struct AuthorBioView: View {
                 BioTextView(author: author)
                 Spacer()
                 VStack(spacing: 25) {
-                    CitationView(author: author)
-                    SourceView(author: author)
+                    BioCitationView(author: author)
+                    BioSourceView(author: author)
                 }
                 .padding()
                 .border(Color.gray, width: 7)
