@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,18 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="books" translatesAutoresizingMaskIntoConstraints="NO" id="k8X-EE-Tt3">
-                                <rect key="frame" x="-62" y="-11" width="617" height="960"/>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="books.vertical.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1d6-8p-SGt">
+                                <rect key="frame" x="132" y="372.5" width="150" height="150.5"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="aTT-ph-pxz"/>
+                                    <constraint firstAttribute="width" constant="150" id="gOB-vc-8V5"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="k8X-EE-Tt3" secondAttribute="trailing" constant="-947" id="4DJ-fT-Su5"/>
-                            <constraint firstAttribute="bottom" secondItem="k8X-EE-Tt3" secondAttribute="bottom" constant="-37" id="CrK-3E-b59"/>
-                            <constraint firstItem="k8X-EE-Tt3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-62" id="Wmy-UZ-bj3"/>
-                            <constraint firstItem="k8X-EE-Tt3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-11" id="flX-KF-j7a"/>
+                            <constraint firstItem="1d6-8p-SGt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Xga-QY-gC0"/>
+                            <constraint firstItem="1d6-8p-SGt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kqh-Qj-QR9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,6 +39,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="books" width="960" height="1500"/>
+        <image name="books.vertical.fill" catalog="system" width="128" height="109"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

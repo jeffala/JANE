@@ -34,7 +34,8 @@ struct BookCitationView: View {
     var bookInfo: Book
     var body: some View {
         Text("Citation: ")
-            .foregroundColor(.blue)
+            .foregroundColor(.gray)
+            .font(.system(size: 20))
         + Text(bookInfo.descSourceCitation)
     }
 }
