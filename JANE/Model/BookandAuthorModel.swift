@@ -8,7 +8,6 @@ struct Book: Identifiable {
     var imageURL: URL
     var sourceOfDesc: String
     var descSourceCitation: String
-    
 }
 
 struct Author {

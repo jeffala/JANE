@@ -26,11 +26,9 @@ struct LifeDatesView: View {
     var body: some View {
         VStack(spacing: 25) {
             Text("Born: ")
-                .foregroundColor(.blue)
                 .fontWeight(.bold)
             + Text(author.dateOfBirth)
             Text("Died: ")
-                .foregroundColor(.blue)
                 .fontWeight(.bold)
             + Text(author.dateOfDeath)
         }
@@ -55,7 +53,8 @@ struct BioCitationView: View {
     var author: Author
     var body: some View {
         Text("Citation: ")
-            .foregroundColor(.blue)
+            .foregroundColor(.gray)
+            .font(.system(size: 20))
         + Text(author.bioSourceCitation)
     }
 }
