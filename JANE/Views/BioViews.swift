@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 // fourth, create the author's view
@@ -51,8 +50,6 @@ struct LeoTolstoyView: View {
         AuthorBioView(author: author)
     }
 }
-
-
 
 struct BioViews_Previews: PreviewProvider {
     static var previews: some View {

@@ -1,6 +1,4 @@
-
 import SwiftUI
-
 
 struct StaredView: View {
     var body: some View {

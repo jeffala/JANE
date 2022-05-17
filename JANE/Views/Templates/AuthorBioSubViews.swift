@@ -1,6 +1,4 @@
-
 import SwiftUI
-
 
 struct AuthorImageView: View {
     var author: Author
@@ -48,7 +46,6 @@ struct BioTextView: View {
             .padding()
     }
 }
-
 struct BioCitationView: View {
     var author: Author
     var body: some View {
@@ -58,15 +55,12 @@ struct BioCitationView: View {
         + Text(author.bioSourceCitation)
     }
 }
-
 struct BioSourceView: View {
     var author: Author
     var body: some View {
         Link("Source of bio: \(author.sourceOfBio)", destination: (URL(string: author.sourceOfBio)!))
     }
 }
-
-
 struct SubViews_Previews: PreviewProvider {
     static var previews: some View {
         LifeDatesView(author: janeAustenBio)

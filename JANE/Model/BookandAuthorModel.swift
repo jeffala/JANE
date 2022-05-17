@@ -22,4 +22,3 @@ struct Author {
     var navlinkName = "Books"
     var bioSourceCitation: String
 }
-

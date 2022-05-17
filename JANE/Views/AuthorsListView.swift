@@ -1,6 +1,4 @@
-
 import SwiftUI
-
 // finally add the author to the list 
 
 struct AuthorsListView: View {
