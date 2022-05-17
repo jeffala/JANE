@@ -1,10 +1,7 @@
-
 import SwiftUI
-
 
 struct AuthorBioView: View {
     var author: Author
-    
     var body: some View {
         ScrollView {
             VStack(spacing: 10) {
@@ -32,7 +29,6 @@ struct AuthorBioView: View {
         }
     }
 }
-
 
 struct AuthorBioView_Previews: PreviewProvider {
     static var previews: some View {

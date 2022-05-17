@@ -1,6 +1,4 @@
-
 import SwiftUI
-
 
 struct ImageAndTitleView: View {
     var bookInfo: Book
@@ -26,7 +24,6 @@ struct BookDescriptionView: View {
             .multilineTextAlignment(.center)
             .lineSpacing(10)
             .padding()
-        
     }
 }
 

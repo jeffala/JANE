@@ -1,6 +1,4 @@
-
 import SwiftUI
-
 
 struct BookDetailView: View {
     var bookInfo: Book

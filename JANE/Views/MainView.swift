@@ -1,6 +1,4 @@
-
 import SwiftUI
-
 
 struct MainView: View {
     var body: some View {
@@ -11,14 +9,12 @@ struct MainView: View {
                         Image(systemName: "person")
                         Text("Authors")
                     }
-                
                 StaredView()
                     .tabItem {
                         Image(systemName: "star.fill")
                         Text("Stared")
                     }
             }
-            
         }
         .accentColor(.green)
     }
