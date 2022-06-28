@@ -32,6 +32,8 @@ struct AuthorBioView: View {
 
 struct AuthorBioView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthorBioView(author: janeAustenBio)
+        NavigationView {
+        AuthorBioView(author: allAuthorData[0])
+        }
     }
 }
