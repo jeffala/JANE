@@ -63,6 +63,6 @@ struct BioSourceView: View {
 }
 struct SubViews_Previews: PreviewProvider {
     static var previews: some View {
-        LifeDatesView(author: janeAustenBio)
+        LifeDatesView(author: allAuthorData[0])
     }
 }

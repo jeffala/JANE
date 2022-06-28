@@ -10,7 +10,8 @@ struct Book: Identifiable {
     var descSourceCitation: String
 }
 
-struct Author {
+struct Author: Identifiable {
+    var id = UUID()
     var image: String
     var imageCredit: String
     var name: String
