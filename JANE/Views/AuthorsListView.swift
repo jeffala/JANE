@@ -1,11 +1,13 @@
 import SwiftUI
-// finally add the author to the list 
 
 struct AuthorsListView: View {
     let authors: [Author] = allAuthorData
+    
+    @State private var searchText = ""
+    
     var body: some View {
         NavigationView {
-            List(authors) { author in
+            List(filteredAuthors) { author in
                 NavigationLink {
                     AuthorBioView(author: author)
                 } label: {
@@ -13,7 +15,18 @@ struct AuthorsListView: View {
                 }
             }
             .navigationTitle("Authors")
+            .searchable(text: $searchText, prompt: "Search for an author")
             .accentColor(.green)
+        }
+    }
+    
+    var filteredAuthors: [Author] {
+        if searchText.isEmpty {
+            return authors
+        } else {
+            return authors.filter {
+                $0.name.localizedCaseInsensitiveContains(searchText)
+            }
         }
     }
 }
