@@ -19,6 +19,8 @@ struct WorksListView: View {
 
 struct WorksListView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         WorksListView(books: JaneAustenBooks.bestWorks)
+        }
     }
 }

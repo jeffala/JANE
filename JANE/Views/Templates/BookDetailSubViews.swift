@@ -20,10 +20,10 @@ struct BookDescriptionView: View {
     var bookInfo: Book
     var body: some View {
         Text(bookInfo.description)
-            .font(.system(size: 20, weight: .medium, design: .rounded))
-            .multilineTextAlignment(.center)
-            .lineSpacing(10)
-            .padding()
+            .font(.system(size: 19, weight: .medium, design: .rounded))
+            .multilineTextAlignment(.leading)
+            .lineSpacing(8)
+            .padding(20)
     }
 }
 

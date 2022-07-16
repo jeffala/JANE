@@ -18,6 +18,7 @@ struct AuthorBioView: View {
                 }
                 .padding()
                 .border(Color.gray, width: 7)
+                .padding()
                 .multilineTextAlignment(.center)
             }
             .navigationTitle(author.name)
