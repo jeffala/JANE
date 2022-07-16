@@ -40,10 +40,10 @@ struct BioTextView: View {
     var author: Author
     var body: some View {
         Text(author.smallBio)
-            .font(.system(size: 21, weight: .medium, design: .rounded))
-            .multilineTextAlignment(.center)
-            .lineSpacing(10)
-            .padding()
+            .font(.system(size: 19, weight: .medium, design: .rounded))
+            .multilineTextAlignment(.leading)
+            .lineSpacing(9)
+            .padding(20)
     }
 }
 struct BioCitationView: View {
@@ -63,6 +63,6 @@ struct BioSourceView: View {
 }
 struct SubViews_Previews: PreviewProvider {
     static var previews: some View {
-        LifeDatesView(author: allAuthorData[0])
+        BioTextView(author: allAuthorData[0])
     }
 }
