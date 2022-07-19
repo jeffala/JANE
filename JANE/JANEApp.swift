@@ -4,7 +4,7 @@ import SwiftUI
 struct JANEApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            HomeView()
         }
     }
 }

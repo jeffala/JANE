@@ -4,7 +4,7 @@ struct WorksListView: View {
     var books: [Book]
     var body: some View {
         List(books, id: \.id) { book in
-            NavigationLink(destination: BookDetailView(bookInfo: book), label: {
+            NavigationLink(destination: BookDetailView(book: book), label: {
                 HStack {
                     Text(book.title)
                         .font(.headline)

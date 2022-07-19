@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct Book: Identifiable {
-    var id = UUID()
+    var id = UUID().uuidString
     var title: String
     var description: String
     var imageURL: URL
