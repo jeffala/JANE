@@ -1,25 +1,40 @@
 import SwiftUI
 
 struct BookDetailView: View {
-    var bookInfo: Book
-
+    var book: Book
+    @EnvironmentObject var favorites: Favorites
+    
     var body: some View {
         ScrollView {
             VStack {
                 Spacer()
-                ImageAndTitleView(bookInfo: bookInfo)
+                ImageAndTitleView(bookInfo: book)
                 Spacer()
-                BookDescriptionView(bookInfo: bookInfo)
+                BookDescriptionView(bookInfo: book)
                     .padding(.top, 45)
                 Spacer()
                 VStack(spacing: 20) {
-                    BookCitationView(bookInfo: bookInfo)
-                    BookSourceView(bookInfo: bookInfo)
+                    BookCitationView(bookInfo: book)
+                    BookSourceView(bookInfo: book)
                 }
                 .padding()
                 .border(Color.gray, width: 7)
                 .padding()
                 .multilineTextAlignment(.center)
+            }
+
+        }
+        .environmentObject(favorites)
+        .toolbar {
+            ToolbarItemGroup(placement: .navigationBarTrailing) {
+                Button(favorites.contains(book) ? "Unfavor" :
+                        "Favor") {
+                    if self.favorites.contains(self.book) {
+                        self.favorites.remove(self.book)
+                    } else {
+                        self.favorites.add(self.book)
+                    }
+                }
             }
         }
     }
@@ -27,6 +42,6 @@ struct BookDetailView: View {
 
 struct BookDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        BookDetailView(bookInfo: JaneAustenBooks.bestWorks.first!)
+            BookDetailView(book: JaneAustenBooks.bestWorks.first!)
     }
 }

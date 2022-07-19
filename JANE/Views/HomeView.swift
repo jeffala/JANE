@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MainView: View {
+struct HomeView: View {
     var body: some View {
         ZStack {
             TabView {
@@ -9,10 +9,10 @@ struct MainView: View {
                         Image(systemName: "person")
                         Text("Authors")
                     }
-                StaredView()
+                FavoritesView()
                     .tabItem {
                         Image(systemName: "star.fill")
-                        Text("Stared")
+                        Text("Favorites")
                     }
             }
         }
@@ -22,6 +22,6 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        HomeView()
     }
 }

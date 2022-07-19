@@ -2,7 +2,6 @@ import SwiftUI
 
 struct AuthorsListView: View {
     let authors: [Author] = allAuthorData
-    
     @State private var searchText = ""
     
     var body: some View {
