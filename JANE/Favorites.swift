@@ -1,10 +1,3 @@
-//
-//  Favorites.swift
-//  JANE
-//
-//  Created by Jeff Licona on 7/18/22.
-//
-
 import SwiftUI
 
 class Favorites: ObservableObject {
@@ -15,10 +8,9 @@ class Favorites: ObservableObject {
     private let saveKey = "Favorites"
     
     init() {
-        // Load the data
+        // Load saved data
+        books = []
         
-        // Still here? Use an empty array
-        self.books = []
     }
     
     // Returns true if the set contains this book
@@ -40,6 +32,7 @@ class Favorites: ObservableObject {
     
     func save() {
         // Write data
+        
     }
     
 }
