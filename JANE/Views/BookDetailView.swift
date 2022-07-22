@@ -27,12 +27,12 @@ struct BookDetailView: View {
         .environmentObject(favorites)
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarTrailing) {
-                Button(favorites.contains(book) ? "Unfavor" :
-                        "Favor") {
-                    if self.favorites.contains(self.book) {
-                        self.favorites.remove(self.book)
+                Button(favorites.contains(book) ? "Remove from Favorites" :
+                        "Add to Favorites") {
+                    if favorites.contains(book) {
+                        favorites.remove(book)
                     } else {
-                        self.favorites.add(self.book)
+                        favorites.add(book)
                     }
                 }
             }
@@ -43,5 +43,6 @@ struct BookDetailView: View {
 struct BookDetailView_Previews: PreviewProvider {
     static var previews: some View {
             BookDetailView(book: JaneAustenBooks.bestWorks.first!)
+            .environmentObject(Favorites())
     }
 }

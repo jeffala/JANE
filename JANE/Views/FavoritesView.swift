@@ -1,11 +1,10 @@
 import SwiftUI
 
 struct FavoritesView: View {
-    @ObservedObject var favorites = Favorites()
+    @StateObject var favorites = Favorites()
 
     var body: some View {
-        Text("Display list of the favored books")
-            .environmentObject(favorites)
+        Text("A list with the favorite book detail views")
     }
 }
 

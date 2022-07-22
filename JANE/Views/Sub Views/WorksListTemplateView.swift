@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct WorksListView: View {
+struct WorksListTemplateView: View {
     var books: [Book]
     var body: some View {
         List(books, id: \.id) { book in
@@ -20,7 +20,7 @@ struct WorksListView: View {
 struct WorksListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-        WorksListView(books: JaneAustenBooks.bestWorks)
+        WorksListTemplateView(books: JaneAustenBooks.bestWorks)
         }
     }
 }
