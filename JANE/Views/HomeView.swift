@@ -1,6 +1,10 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+// MARK: After loading the favorites data the state should change.
+    @StateObject var favorites = Favorites()
+    
     var body: some View {
         ZStack {
             TabView {
@@ -16,6 +20,7 @@ struct HomeView: View {
                     }
             }
         }
+        .environmentObject(favorites)
         .accentColor(.green)
     }
 }
