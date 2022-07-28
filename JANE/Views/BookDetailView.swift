@@ -42,7 +42,9 @@ struct BookDetailView: View {
 
 struct BookDetailView_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
             BookDetailView(book: JaneAustenBooks.bestWorks.first!)
             .environmentObject(Favorites())
+        }
     }
 }
