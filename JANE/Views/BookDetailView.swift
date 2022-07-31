@@ -24,7 +24,6 @@ struct BookDetailView: View {
             }
 
         }
-        .environmentObject(favorites)
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarTrailing) {
                 Button(favorites.contains(book) ? "Remove from Favorites" :

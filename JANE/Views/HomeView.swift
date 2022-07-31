@@ -1,8 +1,6 @@
 import SwiftUI
 
 struct HomeView: View {
-    
-// MARK: After loading the favorites data the state should change.
     @StateObject var favorites = Favorites()
     
     var body: some View {
@@ -19,8 +17,8 @@ struct HomeView: View {
                         Text("Favorites")
                     }
             }
+            .environmentObject(favorites)
         }
-        .environmentObject(favorites)
         .accentColor(.green)
     }
 }
